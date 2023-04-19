@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/cta.css" />
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/queries.css" />
+
+    <title>TravelSite &#124; Hawaii</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <a href="../index.html"><h3 class="header__wordmark">Travel Site</h3></a>
+      <nav class="navbar">
+        <ul class="navbar__list">
+          <li class="navbar__list__item">
+            <a class="navbar__list__link" href="../index.html">Home</a>
+          </li>
+          <li class="navbar__list__item">
+            <a class="navbar__list__link page--active" href="#">Hawaii</a>
+          </li>
+          <li class="navbar__list__item">
+            <a class="navbar__list__link" href="../pages/iceland.html"
+              >Iceland</a
+            >
+          </li>
+          <li class="navbar__list__item">
+            <a class="navbar__list__link" href="../pages/greece.html">Greece</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- SECTION CTA -->
+    <section class="section__cta">
+      <div class="cta__container">
+        <div class="cta__txt">
+          <h3 class="cta__txt__title">
+            Let us be your trusted travel companion and make your travel dreams
+            come true. Bon voyage!
+          </h3>
+          <p class="cta__txt__description">
+            At our travel site, we value your feedback, questions, and
+            suggestions. We are here to assist you in planning your dream
+            vacation and providing you with exceptional service. Please don't
+            hesitate to get in touch with us.
+          </p>
+          <form action="" class="cta__form">
+            <div class="form__item__holder">
+              <label for="full-name">Full Name</label>
+              <input
+                type="text"
+                name="full-name"
+                id="full-name"
+                placeholder="John Smith"
+                required
+              />
+            </div>
+            <div class="form__item__holder">
+              <label for="phone-number">Phone Number</label>
+              <input
+                type="tel"
+                name="phone-number"
+                id="phone-number"
+                placeholder="1234567890"
+                required
+              />
+            </div>
+            <div class="form__item__holder">
+              <label for="email-address">Email Address</label>
+              <input
+                type="email"
+                name="email-address"
+                id="email-address"
+                placeholder="me@example.com"
+                required
+              />
+            </div>
+            <div class="form__item__holder">
+              <label for="which-destination"
+                >Please choose your destination</label
+              >
+              <select
+                name=""
+                id="which-destination"
+                name="which-destination"
+                required
+              >
+                <option value="">Please choose one option:</option>
+                <option value="hawaii">Hawaii</option>
+                <option value="greece">Greece</option>
+                <option value="iceland">Iceland</option>
+              </select>
+            </div>
+            <div class="form__item__holder">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                placeholder="Type your message here"
+                rows="4"
+                cols="35"
+                required
+              ></textarea>
+            </div>
+            <button class="btn__cta" href="#">Get started</button>
+          </form>
+        </div>
+        <div class="cta__img"></div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__container">
+        <h2 class="footer__container__title">Contact</h2>
+        <div class="footer__subinformation footer__subinformation--contact">
+          <p class="footer__subinformation__title">Email</p>
+          <p class="footer__subinformation__details">info@travelsite.com</p>
+        </div>
+      </div>
+      <div class="footer__container">
+        <h2 class="footer__container__title">Hours</h2>
+        <div class="footer__subinformation footer__subinformation--hours">
+          <div class="footer__subinformation__container">
+            <p class="footer__subinformation__title">Monday-Friday</p>
+            <p class="footer__subinformation__details">9:00 AM - 5:00 PM</p>
+          </div>
+          <div class="footer__subinformation__container">
+            <p class="footer__subinformation__title">Saturday</p>
+            <p class="footer__subinformation__details">10:00 AM - 4:00 PM</p>
+          </div>
+          <div class="footer__subinformation__container">
+            <p class="footer__subinformation__title">Sunday</p>
+            <p class="footer__subinformation__details">Closed</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__container">
+        <h2 class="footer__container__title">Social</h2>
+        <div class="footer__subinformation footer__subinformation--social">
+          <a href="https://www.instagram.com/" target="_blank">
+            <img
+              src="../assets/icons/icon-instagram.png"
+              alt="instagram icon"
+            />
+          </a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img src="../assets/icons/icon-facebook.png" alt="facebook icon" />
+          </a>
+          <a href="https://twitter.com/?lang=en" target="_blank">
+            <img src="../assets/icons/icon-twitter.png" alt="twitter icon" />
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<!-- <form class='cta-form' method='post' name='sign-up'><input type='hidden' name='form-name' value='sign-up' />
+  <div>
+    <label for="full-name">Full Name</label>
+    <input
+      id="full-name"
+      type="text"
+      placeholder="John Smith"
+      name="full-name"
+      required
+    />
+  </div>
+
+  <div>
+    <label for="phone-number">Phone Number</label>
+    <input
+      id="phone-number"
+      type="tel"
+      placeholder="1234567890"
+      name="phone-number"
+      required
+    />
+  </div>
+  <div>
+    <label for="email">Email Address</label>
+    <input
+      id="email"
+      type="email"
+      placeholder="me@example.com"
+      name="email"
+      required
+    />
+  </div>
+  <div>
+    <label for="which-membership"
+      >Which membership would you like to go for?</label
+    >
+    <select
+      name=""
+      id="which-membership"
+      name="which-membership"
+      required
+    >
+      <option value="">Please choose one option:</option>
+      <option value="Inperson-with-nutrition">
+        In Person (With nutrition)
+      </option>
+      <option value="Inperson-with-nutrition">
+        In Person (Without nutrition)
+      </option>
+      <option value="Inperson-with-nutrition">
+        Online (Without nutrition)
+      </option>
+    </select>
+  </div> -->
