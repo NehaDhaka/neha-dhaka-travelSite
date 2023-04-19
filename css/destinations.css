@@ -11,6 +11,7 @@
   height: 90vh;
   width: 100%;
   padding: 5rem;
+  margin-top: 4rem;
 }
 .section__main--hawaii {
   background-image: url(../assets/images/hawaii.jpg);
