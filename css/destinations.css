@@ -8,9 +8,9 @@
 .section__main {
   background-position: center;
   background-size: cover;
-  height: 90vh;
+  /* height: 90vh; */
   width: 100%;
-  padding: 5rem;
+  padding: 6rem 5rem;
   margin-top: 4rem;
 }
 .section__main--hawaii {
