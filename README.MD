@@ -22,11 +22,5 @@ Frontend: HTML5, CSS3
 2. Extract the files to a folder of your choice.
 3. Open the index.html file in your web browser to access the Travel Site website.
 
-## Contributing
-As this is a bootcamp assignment project, contributions are not applicable.
-
-## License
-Travel Site is an open-source project created for educational purposes and does not require any licensing.
-
 ## Contact
 If you have any questions or suggestions regarding Travel site, please feel free to contact me at nehadhaka43@gmail.com.
